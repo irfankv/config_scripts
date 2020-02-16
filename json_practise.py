@@ -40,3 +40,13 @@ print(new_string)
 
 print(json.dumps(data, indent=2, sort_keys=True))
 
+with open("states.json") as f:
+    data = json.load(
+        f
+    )  # Note we should use load not loads, loads need to string load need file oject
+
+print(data)
+
+with open("json_from_python.json", "w+") as f:
+    json.dump(data, f, indent=2)
+
