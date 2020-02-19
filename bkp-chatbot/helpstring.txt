@@ -1,0 +1,59 @@
+###This is the Docstring used to list out capabilities of the chatbot
+###Note: Follow the below formats for specifying a domain and its capabilities 
+###<DOMAIN NAME>
+###    - <query description> : <query format example>(Used to describe a query and its format)
+###    - NOTE : <note description>
+###    - <functionality>(Used to describe a function with no specific format)
+
+CDETS
+    - Viewing a CDETS bug : show me CSCxx12345
+    - Appending attribute : add attribute ~attribute data~ to bug CSCxx12345
+    - Adding enclosures :  update enclosure ~Title~ : ~Content of the enclosure~ to bug CSCxx12345
+    - Updating single field : update est-fix-date ~est-fix-date (DD/MM/YYYY)~ to bug CSCxx12345
+    - Updating multiple fields(Add the field name and the respective values seperated by spaces) : update status <status code> est-fix-date est-fix-date (DD/MM/YYYY) attribute ~attribute data~ to bug CSCxx12345
+    - Viewing history : show me the history of CSCxx12345
+    - Viewing enclosures : view/show me the enclosures of CSCxx12345
+    - Updating an enclosure : update enclosure ~enclosure title~ ~new content~ to CSCxx12345
+    - Deleting an enclosure : delete enclosure ~enclosure title~ CSCxx12345
+    - NOTE : Enclose the multi-word values in '~' (tilde) symbols as shown above
+RALLY
+    - Get details of Rally ID : Can you give me details of Rally ID Fxxxxx
+    - Filter Rally ID's with designation and CEC ID : Show me Rally ID for Test Manager dpatwa and Program Manager ganga
+    - Filter Rally ID's based on release : Show me Rally ID for release 721
+    - Filter based on CEC ID : Give me Rally ID for dpatwa
+    - Filter based on the current user : Show my Rally ID
+    - Combination of above filters can also be used : show me rally id of dpatwa for 721
+PIMS
+    - Finding delta LOC between two production builds : pims delta loc between 663 10i and 11i
+    - Finding list of components and LOC details for a lineup : pims lineup details for project a9k-exr-google
+    - Finding LOC details by categories : pims loc by category for project a9k-exr-google
+BIT SCORE
+    - Latest BIT scores : bit score
+    - BIT score for all platforms of same family (eg NCS) : bit score for ncs
+    - BIT score for a version + subversion (required, mandatory) : bit score 07.11.23.01
+    - BIT score for version and platform : bit score for 07.00.01.04 ncs560
+SMU
+    - SMU for a SMU ID : smu data for aa00400
+    -SMU for a Platform : smu data for ncs560
+    -SMU for a ddts : smu data for CSCvs59304
+    -SMU for a customer(no need of exact name it will find closest match) : smu data for google
+    -SMU for a component(no need of exact name it will find closest match) : smu data for policymgr
+    -SMU for a release : smu data for 701
+    -Or a combination of ddts, platform, customer, component, release : smu data for google on 701, smu for asr9k 653 policymgr
+RI SCORE
+    - Latest RI Score : ri score or latest ri score 
+    - RI Score for Platform : ri score for rsp4    
+    - RI Score for a release : ri score for 6.6.3
+    - RI Score for an image : ri score for 6i
+    - NOTE : Combinations of fields can also be made like - ri score for rsp4 6i
+GOOGLE SEARCH
+    - Searching on Google : search out what is cisco
+TOPIC SEARCH
+    - Searching from Topic : search bfd
+DIRECTORY
+    - Find the details of any user: details of CEC ID
+    - Find the Manager of any user: who is the manager of CEC ID
+    - Find the location of any user: location of CEC ID
+    - Find the director of any user: director of CEC ID
+    - Find the Manager of self: my manager
+    - Find the details of self: my directory details

@@ -1,0 +1,398 @@
+{
+    "intents": [{
+            "api_call": "get_help",
+            "patterns": [
+                "help me",
+                "help",
+                "what do you do",
+                "what can you do",
+                "how can you help me",
+                "help cdets",
+                "cdets help",
+                "help me cdets",
+                "help me bit score",
+                "help me ri score",
+                "help bit score",
+                "can you help me with cdets",
+                "can you help me with bit score",
+                "can you help me with smu",
+                "help me with cdets",
+                "help needed for cdets",
+                "help needed ",
+                "help smu",
+                "help me with bit scor",
+                "help me with bit score",
+                "help me with sm",
+                "help me with smu",
+                "help me with ri score",
+                "help me with ri-score",
+                "how can you help me with ri score",
+                "SMU help",
+                "rally help",
+                "help rally",
+                "help bit",
+                "help me dets",
+                "help ",
+                "help topic",
+                "help topicsearch",
+                "help bi score",
+                "help ri",
+                "help ri sco",
+                "help pims",
+                "help ri score",
+                "help ricore",
+                "help it"
+            ],
+            "responses": [
+                ""
+            ],
+            "tag": "help"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "hi",
+                "",
+                "taco",
+                "Smart engine",
+                "macdsouz",
+                "kaukota",
+                "AP_name",
+                "how are you",
+                "bye",
+                "tell me about the products in cisco",
+                "hello",
+                "f44444"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "tag": "greeting"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "bye",
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "goodbye",
+                "sayonara"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ],
+            "tag": "goodbye"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "how old",
+                "how old is ganesha",
+                "what is your age",
+                "how old are you",
+                "age?",
+                "how old is kaushik",
+                "what is your age?"
+            ],
+            "responses": [
+                "I am a week old!",
+                "A week young!",
+                "I've been around for a week"
+            ],
+            "tag": "age"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "who are you",
+                "Who are you?",
+                "What do people call you",
+                "What do people call you ?",
+                "What do you want me to call you?",
+                "what's your name ?",
+                "name",
+                "can you shut down yourself",
+                "What is your name"
+            ],
+            "responses": [
+                "You can call me Ganesha.",
+                "I'm Ganesha!",
+                "I'm Ganesha aka your saviour."
+            ],
+            "tag": "name"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "give me the view of Bundle AP",
+                "get me the view of bundle AP",
+                "give me the view of AP",
+                "get me the view of AP",
+                "view of AP",
+                "get out "
+            ],
+            "responses": [
+                "https://cafy3.cisco.com/packages"
+            ],
+            "tag": "AP_name"
+        },
+        {
+            "api_call": "get_rally_data",
+            "patterns": [
+                "rally",
+                "rally f567",
+                "rally f476",
+                "rally F49349",
+                "rally F476",
+                "rally F37005",
+                "rally F45970",
+                "rally F41436",
+                "rally F47505",
+                "rally F13305",
+                "rally F14236",
+                "rally F14298",
+                "rally F14385",
+                "rally F25770",
+                "rally F44444",
+                "rally F44433",
+                "rally F45131",
+                "rally F56598",
+                "rally F56061",
+                "rally F13243",
+                "rally F39018",
+                "rally F29480",
+                "rally F14326",
+                "rally F13306",
+                "rally F31604",
+                "rally F28827",
+                "rally F24427",
+                "Ganesha give me details of rally F14236",
+                "Ganesha give me details of rally F42393",
+                "Can you give me details of Rally ID F476",
+                "Can you give me details of Rally ID F25770",
+                "rally F4",
+                "give me rally id of test manager dpatwa",
+                "give rally id for test manager dpatwa and program manager ganga",
+                "give rally id for test manager dpatwa and program manager ganga and rakegup2",
+                "give rally id for test manager dpatwa and program manager ganga for 721",
+                "give rally id for test manager dpatwa and program manager ganga for 711",
+                "give rally id for test manager dpatwa for 7.2.1",
+                "give rally id for test manager dpatwa and program manager ganga for 7.2.1",
+                "give rally id for 7.2.1",
+                "give me rally id of test manager dpatwa and program manager ganga for 7.2.1",
+                "for 721 give me rally id for test manager dpatwa and program manager ganga",
+                "for 721, give me rally id for test manager dpatwa and program manager ganga",
+                "rally F56054",
+                "give me rally id of test manager dpatwa and program manager ganga for 711",
+                "give me rally id of test manager dpatwa and program manager ganga for 721",
+                "give me rally id of test manager dpatwa and program manager rakegup2 for 721",
+                "give me rally id of test manager dpatwa and program managerganga for 721",
+                "give me rally id of test manager dpatwa  721",
+                "give me rally id of test manager dpatwa 721",
+                "rally id of test manager dpatwa",
+                "rally id of test manager dpatwa and program manager ganga"
+            ],
+            "responses": [
+                ""
+            ],
+            "tag": "rally"
+        },
+        {
+            "api_call": "get_ri_score",
+            "patterns": [
+                "ri score",
+                "what is the RI score of",
+                "what is ri score",
+                "what is ri score of 721 on ncs560",
+                "ri score for rsp4 701",
+                "ri score for asr9k 721",
+                "ri score for asr9k 711",
+                "What is the ri score for rsp4",
+                "What is the ri score for rsp4 711",
+                "What is the ri score for asr9k 711",
+                "What is the ri score for  711",
+                "What is the ri score for access ri ",
+                "What is the ri score for asr",
+                "What is the ri score for asr9000",
+                "What is the ri score for asr9000 exr",
+                "What is the ri score for ncs",
+                "What is the ri score for ncs6k",
+                "Whats my 702 RI score for RSP4",
+                "RI score for 663",
+                "RI score for 721 latest",
+                "RI score for access RI"
+            ],
+            "responses": [
+                "http://x19-dell-rasa:8833/reports"
+            ],
+            "tag": "RI_score"
+        },
+        {
+            "api_call": "get_BIT_Score",
+            "patterns": [
+                "bit score",
+                "what is the BIT score",
+                "bit score ncs",
+                "BIT score for 663 latest"
+            ],
+            "responses": [
+                "http://xr-bit.cisco.com/score"
+            ],
+            "tag": "Bit_score"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "what is the code churn of 663",
+                "663 release code churn",
+                "can you give me 663 code churn",
+                "i need to know 663 code churn"
+            ],
+            "responses": [
+                "https://cafy3.cisco.com/lineups/r663"
+            ],
+            "tag": "663_code_churn"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "what is the code churn of 662",
+                "662 release code churn",
+                "can you give me 662 code churn",
+                "i need to know 662 code churn"
+            ],
+            "responses": [
+                "https://cafy3.cisco.com/lineups/r662"
+            ],
+            "tag": "662_code_churn"
+        },
+        {
+            "api_call": "",
+            "patterns": [
+                "what is the code churn of xr-dev",
+                "xr-dev release code churn",
+                "can you give me xr-dev code churn",
+                "i need to know xr-dev code churn"
+            ],
+            "responses": [
+                "https://cafy3.cisco.com/lineups/xr-dev"
+            ],
+            "tag": "xr-dev_code_churn"
+        },
+        {
+            "api_call": "get_directory_data",
+            "patterns": [
+                "directory",
+                "directory",
+                "what is the directory link",
+                "direct",
+                "Give me the directory link"
+            ],
+            "responses": [
+                "https://directory.cisco.com"
+            ],
+            "tag": "directory"
+        },
+        {
+            "api_call": "get_cdets",
+            "patterns": [
+                "What is the CDETS",
+                "View the CDETS metadata",
+                "Give me the CDETS BUG ID",
+                "I want the following Cdets data",
+                "CDETs page link",
+                "CSCum72637",
+                "CSCvn79832",
+                "CSCvo31070",
+                "smu data for cscvq50253"
+            ],
+            "responses": [
+                "https://cdetsng.cisco.com"
+            ],
+            "tag": "cdets"
+        },
+        {
+            "api_call": "get_smu_data",
+            "patterns": [
+                "SMU",
+                "what is smu",
+                "AA14567",
+                "telstra smu",
+                "telstra",
+                "smu ",
+                "ddts ",
+                "customer ",
+                "component",
+                "smu data",
+                "smu search",
+                "smu data for aa00400",
+                "latest SMUs on 663 line up",
+                "SMU AA16721",
+                "smu data for a00400",
+                "smu data for cscvq50253",
+                "smu data for ncs1004",
+                "what can yo do"
+            ],
+            "responses": [
+                "http://blr-xr-lnx.cisco.com/SMU_TEAM/rkasilin/sat-ng/index.php"
+            ],
+            "tag": "smu"
+        },
+        {
+            "api_call": "pims_execute",
+            "patterns": [
+                "pims gsr",
+                "pims report",
+                "pims query loc for lineup",
+                "pims find loc for lineup",
+                "pims compare loc between builds",
+                "loc for de mgr",
+                "loc by categories",
+                "delta loc between",
+                "lines of code for ",
+                "pims generate report delta loc ",
+                "pims change in loc between",
+                "pims",
+                "pims delta 701 10i 11i",
+                "pims lineup project a9k-exr-google",
+                "pims  project a9k-exr-google",
+                "pims delta loc between 701 10i and 11i",
+                "pimss delta 701 10i 11i",
+                "pims delta loc 663 10i and 11i",
+                "pims loc for category a9-exr-google",
+                "pims loc for category a9k-exr-google"
+            ],
+            "responses": [
+                "http://pims-web.cisco.com/pims-home/fcgi-bin/PIMS_Main/PIMS_Main.cgi?Function=PIMS_Main&SamePage=1"
+            ],
+            "tag": "pims"
+        },
+        {
+            "api_call": "get_ri_schedule",
+            "patterns": [
+                "Give me the ri schedule",
+                "Give me the ui schedule"
+            ],
+            "responses": [
+                "https://app.smartsheet.com/sheets/M9gmxf8VQhgj8GWRp7pHM3jV28cQfc6jcMHrqj31?view=grid"
+            ],
+            "tag": "schedule"
+        }
+    ]
+}

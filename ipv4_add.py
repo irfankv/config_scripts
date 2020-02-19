@@ -37,9 +37,19 @@ for i in range(1, 33):
 
 for i in range(1, 501):
     j = hex(i).split("x")[1]
-    print(f"{i} permit ipv6 host 2001:10:10::{j} host 2001:20:20::2")
+    # print(f"{i} permit ipv6 host 2001:10:10::{j} host 2001:20:20::2")
     # print(
     #     f"{i} permit tcp host 2001:11:11::{j} gt 1 host 2001:21:21::2 lt 9000 nexthop1 ipv6 2001:192:168::2 nexthop2 ipv6 2001:192:168:3::2 nexthop3 ipv6 2001:192:168:1::2"
     # )
 # for i in range(8200, 8300):
 #     print(f"{i} deny tcp host 20.0.0.2 eq {i} host 10.0.0.2 eq {i}")
+
+
+def func(meass):
+    meass_func = "Variable Inside func"
+    print(f"{meass_func}")
+
+
+# print(f"{meass_func}")
+
+func("Irfan")
