@@ -24,6 +24,7 @@ numpy
 Pandas
 nltk
 tensorflow
+logging
 
 
 
