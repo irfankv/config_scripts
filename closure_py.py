@@ -23,6 +23,12 @@ When and why to use Closures:
     2. When we have few functions in our code, closures prove to be efficient way. 
         But if we need to have many functions, then go for class (OOP).
 
+
+
+ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding.
+(Eg. When there are few methods in a class, use closures instead).
+
+Also, Decorators in Python make extensive use of closures.
 """
 
 

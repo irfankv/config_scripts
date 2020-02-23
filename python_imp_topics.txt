@@ -1,0 +1,34 @@
+Important Python Modules:
+
+Collections
+itertools
+decorator
+generator
+comprehension(list,dictionary,set)
+Exception handling,
+Lambda, MAP , Filter,
+OOPS,
+First class functions
+RE
+Files 
+SubProcess
+OS
+Threads
+pdb
+timeit
+json
+system
+optparse
+clouser
+numpy
+Pandas
+nltk
+tensorflow
+
+
+
+getattr(object, 'x') is completely equivalent to object.x
+There's only in two reasons to use it:
+
+you can't write object.x, because you don't know in advance which attribute you want (it comes from a string). very useful for meta-programming.
+you want to provide a default value. object.y will raise an AttributeError if there's no y. But getattr(object, 'y', 5) will return 5.

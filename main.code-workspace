@@ -1,7 +1,10 @@
 {
-    "folders": [
-        {
+    "folders": [{
             "path": "."
+        },
+        {
+            "name": "SSH FS - ikyalnoo-chatbot",
+            "uri": "ssh://ikyalnoo-chatbot/"
         }
     ]
 }
